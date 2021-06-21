@@ -34,6 +34,6 @@ public class WebDriverSettings {
     @After
     public void closePage() {
 
-        //driver.quit();
+        driver.quit();
     }
 }
